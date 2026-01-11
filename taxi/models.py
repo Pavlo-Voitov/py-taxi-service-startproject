@@ -21,8 +21,8 @@ class Driver(AbstractUser):
         return f"{self.username} ({self.license_number})"
 
     class Meta:
-        verbose_name = "Driver"
-        verbose_name_plural = "Drivers"
+        verbose_name = "driver"
+        verbose_name_plural = "drivers"
 
 
 class Car(models.Model):
